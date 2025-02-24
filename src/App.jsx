@@ -1,12 +1,14 @@
 import { useState } from "react";
+import Calculator from "./components/Calculator";
+import { BASE_UI, panelClass } from "./utils/styles";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <p>Google Scientific Calculator</p>
-    </>
+    <div className={panelClass}>
+      <Calculator />
+    </div>
   );
 }
 
