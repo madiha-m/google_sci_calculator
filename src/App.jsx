@@ -1,5 +1,5 @@
 import Calculator from "./components/Calculator";
-import { panelClass } from "./utils/styles";
+import { panelClass } from "./styles";
 
 function App() {
   return (
