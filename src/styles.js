@@ -12,6 +12,9 @@ export const topClass =
 
 export const resetBtnClass = "text-white cursor-pointer mb-2";
 
+export const resetIconClass =
+  "scale-x-[-1] w-5 h-5 text-white transform rotate-320";
+
 export const displayClass = "";
 
 export const equationDisplayClass =

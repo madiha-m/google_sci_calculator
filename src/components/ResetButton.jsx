@@ -1,8 +1,13 @@
 import React from "react";
-import { resetBtnClass } from "../styles";
+import { resetBtnClass, resetIconClass } from "../styles";
+import { GrPowerReset } from "react-icons/gr";
 
 const ResetButton = () => {
-  return <div className={resetBtnClass}>ResetButton</div>;
+  return (
+    <div className={resetBtnClass}>
+      <GrPowerReset className={resetIconClass} />
+    </div>
+  );
 };
 
 export default ResetButton;
