@@ -1,20 +1,17 @@
 import React from "react";
-import {
-  displayClass,
-  equationDisplayClass,
-  resetBtnClass,
-  resultDisplayClass,
-  topClass,
-} from "../styles";
+import { displayClass, topClass } from "../styles";
+import ResetButton from "./ResetButton";
+import EquationDisplay from "./EquationDisplay";
+import ResultDisplay from "./ResultDisplay";
 
 const Display = () => {
   return (
     <div className={topClass}>
       <div className="flex justify-between items-start">
-        <div className={resetBtnClass}>ResetButton</div>
+        <ResetButton />
         <div className={displayClass}>
-          <div className={equationDisplayClass}>Equation Display</div>
-          <div className={resultDisplayClass}>Result Display</div>
+          <EquationDisplay />
+          <ResultDisplay />
         </div>
       </div>
     </div>
