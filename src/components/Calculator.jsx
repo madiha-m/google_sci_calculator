@@ -1,5 +1,5 @@
 import React from "react";
-import { bodyClass, gridLayoutKeysClass } from "../styles";
+import { bodyClass, buttonGridClass } from "../styles";
 import { KEYS } from "../utils/constants";
 import Keys from "./Keys";
 import Display from "./Display";
@@ -8,7 +8,7 @@ const Calculator = () => {
   return (
     <div className={bodyClass}>
       <Display />
-      <div className={gridLayoutKeysClass}>
+      <div className={buttonGridClass}>
         {KEYS.map((item, index) => (
           <Keys
             label={item}

@@ -4,8 +4,7 @@ export const panelClass =
 export const bodyClass =
   "min-w-[700px] bg-black flex flex-col gap-4 p-4 rounded-2xl";
 
-export const gridLayoutKeysClass =
-  "grid grid-cols-[repeat(7,1fr)] gap-[0.3rem]";
+// Top Section
 
 export const topClass =
   "overflow-x-auto bg-[#141414] min-h-[10px] flex flex-col py-3 px-4 rounded-[10px] relative";
@@ -21,3 +20,10 @@ export const equationDisplayClass =
   "text-[1rem] tracking-[2px] flex gap-[5px] items-center text-[rgba(255,255,255,0.5)] justify-end";
 
 export const resultDisplayClass = "text-[1.7rem] text-white pt-2";
+
+// Keypad
+
+export const buttonGridClass = "grid grid-cols-[repeat(7,1fr)] gap-[0.3rem]";
+
+export const buttonClass =
+  "h-12 bg-[#141414] flex cursor-pointer items-center justify-center p-4 rounded-[35px] hover:bg-[#4ccdc742]";
