@@ -13,6 +13,7 @@ const Calculator = () => {
           <Keys
             label={item}
             key={index}
+            keyClass={item === "=" ? "btn-equal" : ""}
           />
         ))}
       </div>

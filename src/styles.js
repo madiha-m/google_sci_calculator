@@ -27,3 +27,7 @@ export const buttonGridClass = "grid grid-cols-[repeat(7,1fr)] gap-[0.3rem]";
 
 export const buttonClass =
   "h-12 bg-[#141414] flex cursor-pointer items-center justify-center p-4 rounded-[35px] hover:bg-[#4ccdc742]";
+
+// Keys / btns
+export const btnEqualClass =
+  "bg-teal-400 text-[#1a261a] font-bold hover:bg-[#4CCDC6] hover:text-[rgba(255,255,255)]";

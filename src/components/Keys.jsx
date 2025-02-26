@@ -1,8 +1,16 @@
 import React from "react";
-import { buttonClass } from "../styles";
+import { btnEqualClass, buttonClass } from "../styles";
 
-const Keys = ({ label }) => {
-  return <div className={`${buttonClass}`}>{label}</div>;
+const Keys = ({ label, keyClass }) => {
+  return (
+    <div
+      className={`${buttonClass} ${
+        keyClass === "btn-equal" ? btnEqualClass : ""
+      }`}
+    >
+      {label}
+    </div>
+  );
 };
 
 export default Keys;
