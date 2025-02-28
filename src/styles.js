@@ -31,3 +31,5 @@ export const buttonClass =
 // Keys / btns
 export const btnEqualClass =
   "bg-teal-400 text-[#1a261a] font-bold hover:bg-[#4CCDC6] hover:text-[rgba(255,255,255)]";
+
+export const btnRadDegClass = "col-span-2";
